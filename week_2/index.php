@@ -3,12 +3,12 @@
         "name" => 'John',
         "age" => 20,
         "pvc" => TRUE,
-        "ward" => 019,
+        "ward" => "020",
     );
 
     if ($voter["age"] > 18) {
         if ($voter["pvc"] == TRUE) {
-            if ($voter["ward"] == 020) {
+            if ($voter["ward"] === "020") {
                 echo "Voter eligible to vote";
             } else {
                 echo "This voter's ward is not ward 020. <br>";

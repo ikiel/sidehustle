@@ -1,3 +1,3 @@
 <?php
-    $connect = mysqli_connect('localhost', 'root', '', 'students');
+    $connect = mysqli_connect('localhost', 'root', '', 'my_test_db');
 ?>
